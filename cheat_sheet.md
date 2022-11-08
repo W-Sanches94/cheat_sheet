@@ -44,7 +44,6 @@ Change Directory. This followed by directory name will navigate you there.
 Used by itself it will return to the user's home directory.
 ```
 
-image directory tree illustration.
 ```
 cd .
 current directory
@@ -135,6 +134,7 @@ create blank space within terminal for easier readability in the terminal.
 Command +/-
 Increase/Decrease text size within terminal.
 ```
+---
 
 ## Git & GitHub ##
 
