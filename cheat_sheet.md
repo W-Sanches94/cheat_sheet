@@ -113,6 +113,10 @@ This deletes the file without the option for recoverability. This cannot be reco
 If space should be used, it can be used to create multiple directories at once.
 
 **General Commands**
+```
+TAB 
+auto complete for faster navigation.
+```
 
 ```
 History
