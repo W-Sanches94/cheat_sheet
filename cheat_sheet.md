@@ -13,11 +13,11 @@ insert image
 
 ```
 pwd
-Shows current location and path
+Shows current location and path.
 ```
 
 ```
-**ls** 
+ls 
 Lists all visible files with the exception of hidden files.
 ```
 
@@ -50,16 +50,17 @@ current directory
 
 ```
 cd ..
-parent directory
+Return to parent directory
 ```
 
 ```
 cd - 
-go back to last location. usefull when visiting deeply nested files and accidentaly returning to home directory for example.
+Return to last location. usefull when visiting deeply nested files and accidentaly returning to home directory for example.
 ```
+
 **Directory & file creation**
  
- It is crucial to follow the appropriate namning convetions to avoid errors. The two most popular convetions are:
+ It is crucial to follow the appropriate namning convetions to avoid errors. It is heavily not recommended to use "space" in file names.The two most popular convetions are:
  
  - snake_case
 
@@ -68,11 +69,67 @@ go back to last location. usefull when visiting deeply nested files and accident
  - CamelCase
     
     Camel Case uses both Higher and lower case letters to seperate words.
+
 ```
 mkdir "directory_name"
 Create a directory / folder.
 ```
 
 ```
+touch "my_file.txt
+Create a file type dependant on the extension. txt, js, html, css, ect.
 ```
+
+```
+Open "directory_name/file_name"
+```
+
+```
+Open . "directory_name"
+```
+
+```
+mv
+Allows you to Move/Rename a derectory/file.
+
+     mv my_file.txt parent_directory
+     Moves file to different destination
+
+     mv my_file.txt my_other_file.txt
+     Renames file.
+```
+
+```
+rm my_other_file.txt
+
+This deletes the file without the option for recoverability. This cannot be recovered not reversed. This will not work for directeries.
+    
+    rm -r my_directory
+    The "r" is recursive. This will delete directeries.
+```
+
+If space should be used, it can be used to create multiple directories at once.
+
+**General Commands**
+
+```
+History
+Displays the last 10,000 commands in the terminal.
+```
+```
+Up/Down arrow keys
+Scroll through the last 5 commands in the terminal.
+```
+```
+Ctrl L
+create blank space within terminal for easier readability in the terminal.
+```
+
+```
+Command +/-
+Increase/Decrease text size within terminal.
+```
+
+
+
 ## Git ##
