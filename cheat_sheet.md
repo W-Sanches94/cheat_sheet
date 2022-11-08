@@ -130,6 +130,32 @@ Command +/-
 Increase/Decrease text size within terminal.
 ```
 
+## Git & GitHub ##
 
+Git allows for software version control & the Git Repo allows for projects to be stored locally.
 
-## Git ##
+Within VS Code open Terminal.
+sc
+
+```
+git init
+This allows for Git to be initialized within the select directory.
+```
+
+```
+git add
+This 'stages' the file to let git know you want to start recording changes.
+```
+
+```
+git commit
+'save' the changes within the history thereby creating a snapshot. Once this takes place the file is considered unmodified once again.
+    
+    git commit -m"changes_name"
+    Once initial commit has been completed, these serve to annotate changes made.
+```
+
+```
+git push
+Uploads to GitHub Repo.
+```
