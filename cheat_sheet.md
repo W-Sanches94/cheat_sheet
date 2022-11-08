@@ -160,6 +160,16 @@ git push
 Uploads to GitHub Repo.
 ```
 
+```
+git log
+Allows you to see previous commitments with their author, time, date and comments. Press "Q" to return back to main terminal.
+```
+
+```
+git status
+Checks weher files are up to date with origin/main and latest commitments.
+```
+
 **Git Hub**
 
 ![ScreenShot1](new_repo.png)
