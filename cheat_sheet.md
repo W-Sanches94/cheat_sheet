@@ -159,3 +159,19 @@ git commit
 git push
 Uploads to GitHub Repo.
 ```
+
+**Git Hub**
+
+![ScreenShot1](new_repo.png)
+
+Create a new repository.
+
+![ScreenShot2](repo_name.png)
+
+Add name and ensure it is public.
+
+![ScreenShot3](shh_code.png)
+
+Copy & Paste SHH code from GitHub so you can then link your file(s) to your account.
+
+![ScreenShot4](vs_terminal.png)
