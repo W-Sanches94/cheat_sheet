@@ -8,8 +8,10 @@ The way which you communicate with the terminal is determinted by what OS (opera
 
 **Terminal Navigation**
 
-insert image
-~ home directory
+```
+~
+home directory
+```
 
 ```
 pwd
