@@ -18,7 +18,7 @@ The way which you communicate with the terminal is determinted by what OS (opera
 - `ls -a` - Lists all files including hidden files.
 - `ls -l` - Displays more details including permissions, levels, contents, dates ect.
 - `ls - al` - list all files, including hidden files in detail.
-- `Command + T` - Open new tab within terminal
+
 
 ***Directory & file creation***
  
@@ -50,7 +50,7 @@ The "r" is recursive. This will delete directories.
 
 - `mv` my_file.txt my_other_file.txt - renames file.
 
-- `mv` my_file.txt parent_directory.txt - movies file to different destination.
+- `mv` my_file.txt parent_directory.txt - moves file to different destination.
 
 ***General Terminal Commands***
 
@@ -64,3 +64,31 @@ The "r" is recursive. This will delete directories.
 
 - `Command +/-`
 Increase/Decrease text size within terminal.
+
+- `Command + T` - Open new tab within terminal.
+
+## Git Commands
+
+Git is a version control system.
+
+Github is the most popular tool for sorting and sharing remote repos.
+
+1. `git init` - initialises a new Git repository within the current directory.
+
+2. Create a new SSH repo on Github.com and copy the line that ends with the following instruction: git@github.com:redacted/random_project.git. Paste it in the terminal.
+
+3. `git add . / git add new_file.md` - Add All files within this directory OR selected the file.
+
+4. `git commit -m'Git Initialized'` - commit staged changes with appropriate and clear message.
+
+5. `git push origin main` - push changes from local host to Github.
+
+***General Git Commands***
+
+`rm -r git` - removes git repository.
+
+`git log` - Displays commit history for the currently active branch.
+
+`git status` - displays wether current changes are 'staged' or 'unstaged'.
+- Green - staged.
+- Red - Unstaged.
