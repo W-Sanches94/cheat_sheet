@@ -11,10 +11,34 @@ The way which you communicate with the terminal is determinted by what OS (opera
 - `~` **: Tilde** - home directory.
 - `pwd` - present working directory.
 - `cd` - Home directory.
-- `cd ..` - return to parent directory.
 - `cd /path` - change directory. use `TAB` to autocomplete directory and file names.
+- `cd ..` - return to parent directory.
+- `cd -` - Return to last location. usefull when visiting deeply nested files and accidentaly returning to home directory for example.
 - `ls` - list all visible files with the exception of hidden files.
 - `ls -a` - Lists all files including hidden files.
 - `ls -l` - Displays more details including permissions, levels, contents, dates ect.
 - `ls - al` - list all files, including hidden files in detail.
+
+**Directory & file creation**
+ 
+ It is crucial to follow the appropriate namning convetions to avoid errors. It is heavily not recommended to use "space" in file names.The two most popular convetions are:
+ 
+ - snake_case
+
+    snake case are words connected with an "_". Files and Documents following this convetion are usually lowercase for easier termninal navigation.
+
+ - CamelCase
+    
+    Camel Case uses both Higher and lower case letters to seperate words.
+
+***Creation and Deletion***
+
+- `mkdir directory_name` - create a new directory/folder.
+- `touch new_file.extension` - create a new file dependant on the extension such as txt, js, html, css, md.
+- `rm new_file.txt` - delete a file.
+- `rm -r directory_name` - delete a directory.
+
+This deletes the file without the file/folder without the option for recoverability. This cannot be reversed. 
+
+
 
