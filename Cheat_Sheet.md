@@ -31,14 +31,19 @@ The way which you communicate with the terminal is determinted by what OS (opera
     
     Camel Case uses both Higher and lower case letters to seperate words.
 
-***Creation and Deletion***
+**Creation & Deletion**
 
-- `mkdir directory_name` - create a new directory/folder.
-- `touch new_file.extension` - create a new file dependant on the extension such as txt, js, html, css, md.
-- `rm new_file.txt` - delete a file.
-- `rm -r directory_name` - delete a directory.
+- `mkdir` directory_name - create a new directory/folder.
+- `touch` new_file.extension - create a new file dependant on the extension such as txt, js, html, css, md.
+- `open` - "directory_name/file_name"
+- `open .` -  "directory_name"
 
-This deletes the file without the file/folder without the option for recoverability. This cannot be reversed. 
+The following commands delete the file without the file/folder without the option for recoverability. This cannot be reversed. 
 
+- `rm` new_file.txt - delete a file.
+- `rm -r` directory_name - delete a directory.
 
+**Changing Names & Location**
+- `mv` my_file.txt parent_directory.txt - movies file to different destination.
 
+- `mv` my_file.txt my_other_file.txt - renames file
