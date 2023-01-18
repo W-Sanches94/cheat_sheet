@@ -92,3 +92,7 @@ Github is the most popular tool for sorting and sharing remote repos.
 `git status` - displays wether current changes are 'staged' or 'unstaged'.
 - Green - staged.
 - Red - Unstaged.
+
+`.gitignore` - create a file with this name to add files you do not want git to track. This will make sure the files are ommited once you git `push origin main`. To add a file, simply type it <filename.extension>
+
+`git rm --cached <file.txt>` - if you are already tracking an unwanted file, this will remove it from the repo however you will still have it locally.
