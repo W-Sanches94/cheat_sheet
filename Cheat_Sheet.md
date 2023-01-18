@@ -20,7 +20,7 @@ The way which you communicate with the terminal is determinted by what OS (opera
 - `ls - al` - list all files, including hidden files in detail.
 
 
-***Directory & file creation***
+***Directory & File Naming Conventions***
  
  It is crucial to follow the appropriate namning convetions to avoid errors. It is heavily not recommended to use "space" in file names.The two most popular convetions are:
  
