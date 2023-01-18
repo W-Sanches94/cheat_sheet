@@ -67,6 +67,8 @@ Increase/Decrease text size within terminal.
 
 - `Command + T` - Open new tab within terminal.
 
+- `history` - See previously inputed commands.
+
 ## Git Commands
 
 Git is a version control system.
